@@ -5,7 +5,7 @@ function checkViewportWidth() {
     // Viewport width is less than 768 pixels, display message
     document.body.style.backgroundColor = 'black';
     document.body.style.color = 'white';
-    document.body.innerHTML = '<div id="mask_dom"><h1>Screen Too Small</h1><p>Please view this page on a larger screen.</p><a href="chris_portfolio.pdf" download>Download Pdf</a></div>';
+    document.body.innerHTML = '<div id="mask_dom"><h1>Screen Too Small</h1><p>Please view this page on a larger screen.</p><a href="https://github.com/CM-ABEKA/portfolio/blob/main/chris_portfolio.pdf" download>Download Pdf</a></div>';
   } else {
     // Viewport width is sufficient, return to normal
     document.body.style.backgroundColor = '';
